@@ -14,7 +14,20 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-nest-react/api/controllers": ["libs/api/controllers/src/index.ts"],
+      "@nx-nest-react/api/guards": ["libs/api/guards/src/index.ts"],
+      "@nx-nest-react/api/models": ["libs/api/models/src/index.ts"],
+      "@nx-nest-react/api/modules": ["libs/api/modules/src/index.ts"],
+      "@nx-nest-react/api/pipes": ["libs/api/pipes/src/index.ts"],
+      "@nx-nest-react/api/services": ["libs/api/services/src/index.ts"],
+      "@nx-nest-react/api/strategies": ["libs/api/strategies/src/index.ts"],
+      "@nx-nest-react/api/utils": ["libs/api/utils/src/index.ts"],
+      "@nx-nest-react/entities": ["libs/entities/src/index.ts"],
+      "@nx-nest-react/web/components": ["libs/web/components/src/index.ts"],
+      "@nx-nest-react/web/services": ["libs/web/services/src/index.ts"],
+      "@nx-nest-react/web/utils": ["libs/web/utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
